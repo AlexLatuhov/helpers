@@ -1,4 +1,4 @@
-package com.latuhov.helpers;
+package com.latuhov.helpers.basic;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -23,6 +23,8 @@ import android.widget.EditText;
 
 import com.basic.helpers.BuildConfig;
 import com.basic.helpers.R;
+import com.latuhov.helpers.AppLog;
+import com.latuhov.helpers.DrawableBackgroundSelector;
 import com.latuhov.helpers.photo.OnActivityResultHandler;
 import com.trello.rxlifecycle.components.support.RxAppCompatActivity;
 

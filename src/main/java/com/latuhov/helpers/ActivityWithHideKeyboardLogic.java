@@ -4,13 +4,15 @@ import android.app.DialogFragment;
 import android.view.MotionEvent;
 import android.widget.EditText;
 
+import com.latuhov.helpers.basic.BasicActivity;
+
 import java.util.ArrayList;
 
 /**
  * Created by Latuhov on 3/3/17.
  */
 
-public class ActivityWithHideKeyboardLogic extends BasicActivity{
+public class ActivityWithHideKeyboardLogic extends BasicActivity {
     public ArrayList<EditText> editTextToManage = new ArrayList<>();
     protected DialogFragment progress;
 

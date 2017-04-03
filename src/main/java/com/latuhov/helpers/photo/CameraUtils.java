@@ -18,7 +18,7 @@ import android.provider.MediaStore;
 import android.webkit.MimeTypeMap;
 
 import com.latuhov.helpers.AppLog;
-import com.latuhov.helpers.BasicPrefHelper;
+import com.latuhov.helpers.basic.BasicPrefHelper;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -73,4 +73,11 @@ public class DrawableBackgroundSelector implements View.OnTouchListener {
     public static DrawableBackgroundSelector create() {
         return new DrawableBackgroundSelector();
     }
+
+    public static void create(View... views) {
+        for (View view : views) {
+            if (view == null) return;
+            view.setOnTouchListener(create());
+        }
+    }
 }

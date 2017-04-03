@@ -1,8 +1,9 @@
-package com.latuhov.helpers;
+package com.latuhov.helpers.basic;
 
 import android.support.multidex.MultiDexApplication;
 
 import com.basic.helpers.R;
+import com.latuhov.helpers.ToastHelper;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 

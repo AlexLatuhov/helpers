@@ -2,6 +2,8 @@ package com.latuhov.helpers;
 
 import android.util.Log;
 
+import com.latuhov.helpers.basic.BasicApp;
+
 /**
  * Created by Latuhov on 11/25/16.
  */

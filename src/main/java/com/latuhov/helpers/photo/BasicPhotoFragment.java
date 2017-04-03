@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.latuhov.helpers.AppLog;
-import com.latuhov.helpers.BaseFragment;
+import com.latuhov.helpers.basic.BaseFragment;
 import com.latuhov.helpers.ToastHelper;
 
 import java.io.FileDescriptor;

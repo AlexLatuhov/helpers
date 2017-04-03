@@ -71,8 +71,8 @@ public class ChangePictureDialogFragment extends DialogFragment {
 
     private void requestPermissions() {
         if (needToCheckPermission()) {
-            int hasLocationPermission = getActivity().checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE);
-            int cameraPermission = getActivity().checkSelfPermission(Manifest.permission.CAMERA);
+            int hasLocationPermission = ContextCompat.checkSelfPermission(getActivity(), Manifest.permission.WRITE_EXTERNAL_STORAGE);
+            int cameraPermission = ContextCompat.checkSelfPermission(getActivity(), Manifest.permission.CAMERA);
             List<String> permissions = new ArrayList<>();
             if (hasLocationPermission != PackageManager.PERMISSION_GRANTED) {
                 permissions.add(Manifest.permission.WRITE_EXTERNAL_STORAGE);

@@ -1,4 +1,4 @@
-package com.latuhov.helpers;
+package com.latuhov.helpers.basic;
 
 import android.content.Context;
 
