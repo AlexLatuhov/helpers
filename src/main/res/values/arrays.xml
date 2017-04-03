@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="genders">
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
+
+    <string-array name="take_photo_array">
+        <item>@string/take_photo</item>
+        <item>@string/choose_existing_photo</item>
+    </string-array>
+
+</resources>
